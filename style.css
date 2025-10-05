@@ -8,3 +8,12 @@
     padding-bottom: 4px;
     margin: 10px;
 }
+.DivRespuestas{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex: 200px;
+}
+label{
+    margin-left: 15px;
+}

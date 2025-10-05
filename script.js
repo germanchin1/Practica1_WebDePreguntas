@@ -40,5 +40,11 @@ function crearDivPregunta(pregunta){
         const textoRespuesta = document.createElement("label")
         textoRespuesta.htmlFor = RadioButton.id; 
         textoRespuesta.innerHTML = texto;   
+        textoRespuesta.appendChild(RadioButton); 
+        DivRespuestas.appendChild(textoRespuesta);
+
+
     });    
+    divPregunta.appendChild(DivRespuestas); 
+
 }
