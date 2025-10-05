@@ -13,9 +13,10 @@ const cargarPreguntas = async () => {
 cargarPreguntas().then(() => {
     for (let i = 0; i < preguntas.length; i++) {
         crearDivPregunta(preguntas[i]); 
+        nPregunta++
     }
 });
-
+//hacer div preguntas
 function crearDivPregunta(pregunta){  
     //div
     const divPregunta = document.createElement("div");
@@ -37,14 +38,32 @@ function crearDivPregunta(pregunta){
         RadioButton.type = "radio";
         RadioButton.name =  "respuesta" + nPregunta;
         RadioButton.id = "res" + i;
+       
         const textoRespuesta = document.createElement("label")
-        textoRespuesta.htmlFor = RadioButton.id; 
         textoRespuesta.innerHTML = texto;   
+       
         textoRespuesta.appendChild(RadioButton); 
         DivRespuestas.appendChild(textoRespuesta);
-
+    
+    
+        RadioButton.addEventListener("change", () => {
+    comprobarRespuesta(i, pregunta.respuesta_correcta, divPregunta);
+});
 
     });    
     divPregunta.appendChild(DivRespuestas); 
 
 }
+
+//checkear respuestas
+
+
+    function comprobarRespuesta(indiceSeleccionado, indiceCorrecto, div) {
+        if (indiceSeleccionado === indiceCorrecto) {
+            div.style.backgroundColor = "#2b812bff";
+        } else {
+            div.style.backgroundColor = "#d83030ff"; 
+        }
+        const radios = div.querySelectorAll("input[type='radio']");
+        radios.forEach(RadioButton => RadioButton.disabled = true);
+    }
