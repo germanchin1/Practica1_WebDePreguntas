@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿En qué año comenzó la Guerra Civil Española?",
+    "respuestas": ["1929", "1936", "1945", "1975"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Quién fue el jefe del bando sublevado durante la Guerra Civil Española?",
+    "respuestas": ["Francisco Franco", "Adolfo Suárez", "Felipe VI", "José Antonio Primo de Rivera"],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "respuestas": ["1939", "1942", "1945", "1950"],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la capital de España?",
+    "respuestas": ["Barcelona", "Madrid", "Sevilla", "Valencia"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué océano baña las costas de Galicia?",
+    "respuestas": ["Atlántico", "Pacífico", "Índico", "Ártico"],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿En qué año llegó el hombre a la Luna?",
+    "respuestas": ["1965", "1969", "1972", "1980"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el río más largo de la península ibérica?",
+    "respuestas": ["Duero", "Tajo", "Guadalquivir", "Ebro"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Quién fue el primer presidente de la democracia en España tras Franco?",
+    "respuestas": ["Adolfo Suárez", "Leopoldo Calvo-Sotelo", "Felipe González", "José María Aznar"],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿En qué año murió Francisco Franco?",
+    "respuestas": ["1965", "1975", "1982", "1990"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el continente más grande del mundo?",
+    "respuestas": ["África", "América", "Asia", "Europa"],
+    "respuesta_correcta": 2
+  }
+]
