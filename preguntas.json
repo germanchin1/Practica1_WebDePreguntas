@@ -1,52 +1,52 @@
 [
   {
-    "pregunta": "¿En qué año comenzó la Guerra Civil Española?",
-    "respuestas": ["1929", "1936", "1945", "1975"],
+    "pregunta": "¿En qué año se lanzó el primer juego de la saga 'The Legend of Zelda'?",
+    "respuestas": ["1983", "1986", "1990", "1995"],
     "respuesta_correcta": 1
   },
   {
-    "pregunta": "¿Quién fue el jefe del bando sublevado durante la Guerra Civil Española?",
-    "respuestas": ["Francisco Franco", "Adolfo Suárez", "Felipe VI", "José Antonio Primo de Rivera"],
-    "respuesta_correcta": 0
+    "pregunta": "¿Cuál de estos juegos es un battle royale popular?",
+    "respuestas": ["Minecraft", "Fortnite", "Tetris", "Final Fantasy VII"],
+    "respuesta_correcta": 1
   },
   {
-    "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
-    "respuestas": ["1939", "1942", "1945", "1950"],
+    "pregunta": "¿Qué empresa desarrolló el juego 'Halo'?",
+    "respuestas": ["Valve", "Bungie", "Nintendo", "Rockstar Games"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la plataforma original de 'Super Mario 64'?",
+    "respuestas": ["NES", "SNES", "Nintendo 64", "GameCube"],
     "respuesta_correcta": 2
   },
   {
-    "pregunta": "¿Cuál es la capital de España?",
-    "respuestas": ["Barcelona", "Madrid", "Sevilla", "Valencia"],
+    "pregunta": "¿En qué videojuego aparece el personaje 'Master Chief'?",
+    "respuestas": ["Call of Duty", "Halo", "Destiny", "Gears of War"],
     "respuesta_correcta": 1
   },
   {
-    "pregunta": "¿Qué océano baña las costas de Galicia?",
-    "respuestas": ["Atlántico", "Pacífico", "Índico", "Ártico"],
+    "pregunta": "¿Qué juego popular de rol tiene un mundo llamado 'Tamriel'?",
+    "respuestas": ["The Witcher 3", "Skyrim", "Dragon Age", "Elder Scrolls Online"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué juego es conocido por la frase 'It's dangerous to go alone! Take this.'?",
+    "respuestas": ["Metroid", "Zelda", "Castlevania", "Final Fantasy"],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de estos juegos pertenece al género 'MOBA'?",
+    "respuestas": ["League of Legends", "Doom", "Half-Life", "Civilization VI"],
     "respuesta_correcta": 0
   },
   {
-    "pregunta": "¿En qué año llegó el hombre a la Luna?",
-    "respuestas": ["1965", "1969", "1972", "1980"],
+    "pregunta": "¿En qué año se lanzó 'Minecraft' oficialmente?",
+    "respuestas": ["2009", "2011", "2013", "2015"],
     "respuesta_correcta": 1
   },
   {
-    "pregunta": "¿Cuál es el río más largo de la península ibérica?",
-    "respuestas": ["Duero", "Tajo", "Guadalquivir", "Ebro"],
-    "respuesta_correcta": 1
-  },
-  {
-    "pregunta": "¿Quién fue el primer presidente de la democracia en España tras Franco?",
-    "respuestas": ["Adolfo Suárez", "Leopoldo Calvo-Sotelo", "Felipe González", "José María Aznar"],
-    "respuesta_correcta": 0
-  },
-  {
-    "pregunta": "¿En qué año murió Francisco Franco?",
-    "respuestas": ["1965", "1975", "1982", "1990"],
-    "respuesta_correcta": 1
-  },
-  {
-    "pregunta": "¿Cuál es el continente más grande del mundo?",
-    "respuestas": ["África", "América", "Asia", "Europa"],
+    "pregunta": "¿Cuál es la franquicia más famosa de juegos de disparos en primera persona de Valve?",
+    "respuestas": ["Half-Life", "Portal", "Counter-Strike", "Left 4 Dead"],
     "respuesta_correcta": 2
   }
 ]

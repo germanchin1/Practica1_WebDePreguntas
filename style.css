@@ -1,6 +1,10 @@
-.preguntaContenedor{
+.contenedorPreguntas{
     height: 150px;
-    width: 70%;
+    width: 50%;
     background-color: cornflowerblue;
     color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 4px;
+    margin: 10px;
 }
