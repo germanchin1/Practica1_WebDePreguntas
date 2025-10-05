@@ -11,11 +11,21 @@ const cargarPreguntas = async () => {
 }
 
 cargarPreguntas().then(() => {
-    for (let i = 0; i < preguntas.length; i++) {
-        crearDivPregunta(preguntas[i]); 
-        nPregunta++
-    }
+    mostrarPreguntas();
 });
+
+
+
+function mostrarPreguntas() {
+    const contenedor = document.getElementById("TODAS_LAS_PREGUNTAS");
+   
+
+    for (let i = nPregunta; i < nPregunta + 2 && i < preguntas.length; i++) {
+        crearDivPregunta(preguntas[i]);
+    }
+
+    nPregunta += 2;
+}
 //hacer div preguntas
 function crearDivPregunta(pregunta){  
     //div
@@ -61,9 +71,12 @@ function crearDivPregunta(pregunta){
     function comprobarRespuesta(indiceSeleccionado, indiceCorrecto, div) {
         if (indiceSeleccionado === indiceCorrecto) {
             div.style.backgroundColor = "#2b812bff";
+
         } else {
             div.style.backgroundColor = "#d83030ff"; 
         }
         const radios = div.querySelectorAll("input[type='radio']");
         radios.forEach(RadioButton => RadioButton.disabled = true);
+        
+        
     }
