@@ -1,5 +1,5 @@
 .contenedorPreguntas{
-    height: 150px;
+    height: 200px;
     width: 30%;
     background-color: cornflowerblue;
     color: white;
@@ -16,4 +16,9 @@
 }
 label{
     margin-left: 15px;
+}
+.TODAS_LAS_PREGUNTAS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
