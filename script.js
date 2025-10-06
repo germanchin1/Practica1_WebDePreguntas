@@ -27,7 +27,6 @@ function mostrarPreguntas() {
         
     }
 
-    nPregunta += 2;
 }
 //hacer div preguntas
 function crearDivPregunta(pregunta){  
@@ -80,6 +79,6 @@ function crearDivPregunta(pregunta){
         }
         const radios = div.querySelectorAll("input[type='radio']");
         radios.forEach(RadioButton => RadioButton.disabled = true);
-        
+        console.log(document.querySelectorAll("input[type='radio']"));
         
     }
