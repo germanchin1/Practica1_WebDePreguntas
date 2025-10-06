@@ -17,11 +17,14 @@ cargarPreguntas().then(() => {
 
 
 function mostrarPreguntas() {
-    const contenedor = document.getElementById("TODAS_LAS_PREGUNTAS");
    
 
-    for (let i = nPregunta; i < nPregunta + 2 && i < preguntas.length; i++) {
+    for (let i = nPregunta; i < nPregunta + 3 && i < preguntas.length; i++) {
+       
+        console.log(i);
+        window.alert(i);
         crearDivPregunta(preguntas[i]);
+        
     }
 
     nPregunta += 2;
