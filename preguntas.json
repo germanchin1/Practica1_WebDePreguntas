@@ -1,32 +1,302 @@
 [
-  {"pregunta":"¿En qué año se lanzó 'The Legend of Zelda' para NES?","respuestas":["1983","1986","1990","1992"],"respuesta_correcta":1},
-  {"pregunta":"¿Quién es el protagonista de 'Halo'?","respuestas":["Marcus Fenix","Master Chief","Link","Solid Snake"],"respuesta_correcta":1},
-  {"pregunta":"¿Cuál es la ciudad principal en 'Grand Theft Auto V'?","respuestas":["Liberty City","Vice City","Los Santos","San Fierro"],"respuesta_correcta":2},
-  {"pregunta":"¿Qué juego popular de sandbox permite construir con bloques?","respuestas":["Terraria","Minecraft","Roblox","Fortnite"],"respuesta_correcta":1},
-  {"pregunta":"¿En qué juego aparece el personaje Kratos?","respuestas":["God of War","Devil May Cry","Bayonetta","Dante's Inferno"],"respuesta_correcta":0},
-  {"pregunta":"¿Cuál es el género principal de 'League of Legends'?","respuestas":["MOBA","FPS","RPG","Plataforma"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué consola lanzó Nintendo en 1996 con gráficos 3D?","respuestas":["NES","SNES","Nintendo 64","GameCube"],"respuesta_correcta":2},
-  {"pregunta":"¿Quién es el creador de 'Metal Gear'?","respuestas":["Hideo Kojima","Shigeru Miyamoto","Todd Howard","Gabe Newell"],"respuesta_correcta":0},
-  {"pregunta":"¿En qué juego aparece el mapa llamado 'Dust II'?","respuestas":["Counter-Strike","Valorant","Call of Duty","Overwatch"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego de Nintendo tiene un fontanero llamado Mario como protagonista?","respuestas":["Donkey Kong","Mario Bros","Luigi's Mansion","Super Smash Bros"],"respuesta_correcta":1},
-  {"pregunta":"¿Cuál es el juego más vendido de todos los tiempos?","respuestas":["Tetris","Minecraft","GTA V","Wii Sports"],"respuesta_correcta":1},
-  {"pregunta":"¿Qué saga de juegos tiene personajes como Sephiroth y Cloud?","respuestas":["Final Fantasy","Kingdom Hearts","Dragon Quest","Chrono Trigger"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué videojuego popular es conocido por 'Battle Royale'?","respuestas":["Fortnite","PUBG","Apex Legends","Todos los anteriores"],"respuesta_correcta":3},
-  {"pregunta":"¿Qué personaje de Nintendo puede inhalar enemigos?","respuestas":["Kirby","Pikachu","Fox McCloud","Yoshi"],"respuesta_correcta":0},
-  {"pregunta":"¿Cuál es la principal mecánica de 'Portal'?","respuestas":["Plataformas","Rompecabezas con portales","Carreras","Disparos en primera persona"],"respuesta_correcta":1},
-  {"pregunta":"¿Qué franquicia incluye los juegos 'Black Ops' y 'Modern Warfare'?","respuestas":["Battlefield","Call of Duty","Halo","Gears of War"],"respuesta_correcta":1},
-  {"pregunta":"¿Qué juego de rol tiene lugar en el continente de Tamriel?","respuestas":["Skyrim","The Witcher 3","Dragon Age","Dark Souls"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego tiene la frase famosa 'It's dangerous to go alone! Take this.'?","respuestas":["Zelda","Metroid","Castlevania","Final Fantasy"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego de Blizzard tiene héroes como Tracer y Reaper?","respuestas":["Overwatch","Diablo","Starcraft","Warcraft III"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué saga tiene juegos llamados 'Assassin's Creed: Origins' y 'Odyssey'?","respuestas":["Assassin's Creed","Far Cry","Watch Dogs","Prince of Persia"],"respuesta_correcta":0},
-  {"pregunta":"¿Quién es el villano principal de 'Super Mario'?","respuestas":["Bowser","Ganondorf","Dr. Eggman","Ridley"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego se desarrolla en un mundo postapocalíptico llamado Rapture?","respuestas":["BioShock","Fallout 3","Metro 2033","The Last of Us"],"respuesta_correcta":0},
-  {"pregunta":"¿Cuál de estos juegos es un MOBA?","respuestas":["League of Legends","Dota 2","Smite","Todos los anteriores"],"respuesta_correcta":3},
-  {"pregunta":"¿Qué juego tiene un personaje llamado Link?","respuestas":["Zelda","Final Fantasy","Pokemon","Metroid"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego de Rockstar tiene a CJ como protagonista?","respuestas":["GTA San Andreas","GTA V","Red Dead Redemption","L.A. Noire"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego de rol tiene dragones y combates tácticos por turnos en mundos medievales?","respuestas":["Fire Emblem","Dark Souls","Skyrim","The Witcher 3"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego incluye cartas coleccionables y héroes con poderes únicos?","respuestas":["Hearthstone","Magic The Gathering","Legends of Runeterra","Yu-Gi-Oh!"],"respuesta_correcta":0},
-  {"pregunta":"¿Cuál es la consola portátil de Nintendo lanzada en 1989?","respuestas":["Game Boy","Nintendo DS","Game Gear","PSP"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué juego de zombies permite construir y fortificar bases en modo supervivencia?","respuestas":["7 Days to Die","Minecraft","Project Zomboid","DayZ"],"respuesta_correcta":0},
-  {"pregunta":"¿Qué personaje es conocido por lanzar bombas y correr rápido en un videojuego clásico?","respuestas":["Bomberman","Mega Man","Sonic","Pac-Man"],"respuesta_correcta":0}
+  {
+    "pregunta": "¿En qué año se lanzó 'The Legend of Zelda' para NES?",
+    "respuestas": [
+      "1983",
+      "1986",
+      "1990",
+      "1992"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Quién es el protagonista de 'Halo'?",
+    "respuestas": [
+      "Marcus Fenix",
+      "Master Chief",
+      "Link",
+      "Solid Snake"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la ciudad principal en 'Grand Theft Auto V'?",
+    "respuestas": [
+      "Liberty City",
+      "Vice City",
+      "Los Santos",
+      "San Fierro"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué juego popular de sandbox permite construir con bloques?",
+    "respuestas": [
+      "Terraria",
+      "Minecraft",
+      "Roblox",
+      "Fortnite"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿En qué juego aparece el personaje Kratos?",
+    "respuestas": [
+      "God of War",
+      "Devil May Cry",
+      "Bayonetta",
+      "Dante's Inferno"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el género principal de 'League of Legends'?",
+    "respuestas": [
+      "MOBA",
+      "FPS",
+      "RPG",
+      "Plataforma"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué consola lanzó Nintendo en 1996 con gráficos 3D?",
+    "respuestas": [
+      "NES",
+      "SNES",
+      "Nintendo 64",
+      "GameCube"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Quién es el creador de 'Metal Gear'?",
+    "respuestas": [
+      "Hideo Kojima",
+      "Shigeru Miyamoto",
+      "Todd Howard",
+      "Gabe Newell"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿En qué juego aparece el mapa llamado 'Dust II'?",
+    "respuestas": [
+      "Counter-Strike",
+      "Valorant",
+      "Call of Duty",
+      "Overwatch"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego de Nintendo tiene un fontanero llamado Mario como protagonista?",
+    "respuestas": [
+      "Donkey Kong",
+      "Mario Bros",
+      "Luigi's Mansion",
+      "Super Smash Bros"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el juego más vendido de todos los tiempos?",
+    "respuestas": [
+      "Tetris",
+      "Minecraft",
+      "GTA V",
+      "Wii Sports"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué saga de juegos tiene personajes como Sephiroth y Cloud?",
+    "respuestas": [
+      "Final Fantasy",
+      "Kingdom Hearts",
+      "Dragon Quest",
+      "Chrono Trigger"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué videojuego popular es conocido por 'Battle Royale'?",
+    "respuestas": [
+      "Fortnite",
+      "PUBG",
+      "Apex Legends",
+      "Todos los anteriores"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué personaje de Nintendo puede inhalar enemigos?",
+    "respuestas": [
+      "Kirby",
+      "Pikachu",
+      "Fox McCloud",
+      "Yoshi"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la principal mecánica de 'Portal'?",
+    "respuestas": [
+      "Plataformas",
+      "Rompecabezas con portales",
+      "Carreras",
+      "Disparos en primera persona"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué franquicia incluye los juegos 'Black Ops' y 'Modern Warfare'?",
+    "respuestas": [
+      "Battlefield",
+      "Call of Duty",
+      "Halo",
+      "Gears of War"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué juego de rol tiene lugar en el continente de Tamriel?",
+    "respuestas": [
+      "Skyrim",
+      "The Witcher 3",
+      "Dragon Age",
+      "Dark Souls"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego tiene la frase famosa 'It's dangerous to go alone! Take this.'?",
+    "respuestas": [
+      "Zelda",
+      "Metroid",
+      "Castlevania",
+      "Final Fantasy"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego de Blizzard tiene héroes como Tracer y Reaper?",
+    "respuestas": [
+      "Overwatch",
+      "Diablo",
+      "Starcraft",
+      "Warcraft III"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué saga tiene juegos llamados 'Assassin's Creed: Origins' y 'Odyssey'?",
+    "respuestas": [
+      "Assassin's Creed",
+      "Far Cry",
+      "Watch Dogs",
+      "Prince of Persia"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Quién es el villano principal de 'Super Mario'?",
+    "respuestas": [
+      "Bowser",
+      "Ganondorf",
+      "Dr. Eggman",
+      "Ridley"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego se desarrolla en un mundo postapocalíptico llamado Rapture?",
+    "respuestas": [
+      "BioShock",
+      "Fallout 3",
+      "Metro 2033",
+      "The Last of Us"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de estos juegos es un MOBA?",
+    "respuestas": [
+      "League of Legends",
+      "Dota 2",
+      "Smite",
+      "Todos los anteriores"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué juego tiene un personaje llamado Link?",
+    "respuestas": [
+      "Zelda",
+      "Final Fantasy",
+      "Pokemon",
+      "Metroid"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego de Rockstar tiene a CJ como protagonista?",
+    "respuestas": [
+      "GTA San Andreas",
+      "GTA V",
+      "Red Dead Redemption",
+      "L.A. Noire"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego de rol tiene dragones y combates tácticos por turnos en mundos medievales?",
+    "respuestas": [
+      "Fire Emblem",
+      "Dark Souls",
+      "Skyrim",
+      "The Witcher 3"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego incluye cartas coleccionables y héroes con poderes únicos?",
+    "respuestas": [
+      "Hearthstone",
+      "Magic The Gathering",
+      "Legends of Runeterra",
+      "Yu-Gi-Oh!"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la consola portátil de Nintendo lanzada en 1989?",
+    "respuestas": [
+      "Game Boy",
+      "Nintendo DS",
+      "Game Gear",
+      "PSP"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué juego de zombies permite construir y fortificar bases en modo supervivencia?",
+    "respuestas": [
+      "7 Days to Die",
+      "Minecraft",
+      "Project Zomboid",
+      "DayZ"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué personaje es conocido por lanzar bombas y correr rápido en un videojuego clásico?",
+    "respuestas": [
+      "Bomberman",
+      "Mega Man",
+      "Sonic",
+      "Pac-Man"
+    ],
+    "respuesta_correcta": 0
+  }
 ]
